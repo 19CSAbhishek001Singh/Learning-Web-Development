@@ -1,19 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-image: url(/CSS/styles/WIP-6th-anniversary-wallpaper-light.jpg);
+    background-size: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 h1 {
     color: green;
 }
 
-h1 a {
+/* h1 a {
     color: red;
 }
 
 h1 a:hover {
     color: orange;
-}
+} */
 
 /* #mate-in-one{
     border-radius: 30px;
     box-shadow:5px 10px orange;
 } */
+/* .bullet:hover {
+    color: orange;
+}
+
+.pink:hover {
+    color: pink;
+} */
+/* to make link without underline */
+/* ul li a {
+    text-decoration: none;
+    color: pink;
+} */
+
 .chessboard {
     border-radius: 30px;
 }
