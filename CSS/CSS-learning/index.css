@@ -1,0 +1,77 @@
+/* Cascading Style Sheet */
+
+
+/* to add dowloaded fonts */
+/* @font-face {
+    font-family: fontname;
+    src:url('path of that font');
+} */
+
+
+
+
+
+/* .bg {
+    background: url('/CSS/CSS-learning/double-bubble-outline.png');
+    background-repeat: repeat; */
+/* background-position: 10% 50%; */
+/* background-size: cover; */
+/* background-attachment: scroll;
+}
+
+p {
+    font-size: 2em;
+    color: cyan;
+    border: 10px solid green;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: red;
+    border-radius: 10px 20px; */
+/* margin can be given negative value but padding can't */
+
+/* }
+
+p:hover {
+    color: orange;
+} */
+
+
+/* BOX MODEL */
+#text {
+    width: 500px;
+    border: 1px solid black;
+    color: blueviolet;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 20px;
+    word-wrap: break-word;
+    /* text-indent: 50px; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 1px; */
+    /* white-space:pre; */
+}
+
+/* #shadow {
+    font-size: 30px;
+    text-shadow: 1px -10px 5px red;
+} */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: red;
+}
