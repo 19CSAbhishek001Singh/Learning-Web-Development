@@ -1,6 +1,20 @@
 /* Cascading Style Sheet */
 
 
+#parent {
+    border: 1px solid red;
+    width: 800px;
+    font-size: 30px;
+    resize: both;
+    overflow: auto;
+}
+
+#child {
+    border: 1px solid blue;
+    width: 50%;
+    font-size: 1em;
+}
+
 /* to add dowloaded fonts */
 /* @font-face {
     font-family: fontname;
@@ -37,7 +51,7 @@ p:hover {
 
 
 /* BOX MODEL */
-#text {
+/* #text {
     width: 500px;
     border: 1px solid black;
     color: blueviolet;
@@ -46,16 +60,16 @@ p:hover {
     line-height: 20px;
     word-wrap: break-word;
     /* text-indent: 50px; */
-    /* letter-spacing: 2px; */
-    /* word-spacing: 1px; */
-    /* white-space:pre; */
-}
+/* letter-spacing: 2px; */
+/* word-spacing: 1px; */
+/* white-space:pre; */
+/* } */
 
 /* #shadow {
     font-size: 30px;
     text-shadow: 1px -10px 5px red;
 } */
-a {
+/* a {
     text-decoration: none;
 }
 
@@ -74,4 +88,6 @@ a:hover {
 
 a:active {
     color: red;
-}
+} */
+
+/* box shadow ,text shadow,opacity,filter,gradient,overflow,resizeable,lists,tables ans stylings*/
