@@ -1,0 +1,33 @@
+/* #fun {
+    background-color: teal;
+    height: 200px;
+    width: calc(100%-200px);
+}
+
+a {
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+} */
+#green {
+    color: green;
+}
+
+#blue {
+    color: red;
+}
+
+#initial {
+    color: initial;
+}
+
+#inherit {
+    color: inherit;
+}
+
+/* display inline block inlineblock none */
+/* position static relative absolute fixed */
+/* float clear visibility layers z-indexand layers */
+/* media screen media print tranform transition animation  */
