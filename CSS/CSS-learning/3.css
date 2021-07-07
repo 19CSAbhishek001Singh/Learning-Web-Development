@@ -1,0 +1,16 @@
+/* learned about flexbox css grid and validations */
+/* after failing one attempt able to passs linkedin assesments */
+#name {
+    font-size: 50px;
+    text-align: center;
+    color: aquamarine;
+}
+
+#div {
+    text-align: center;
+    font-size: 40px;
+}
+
+#hover:hover {
+    color: orange;
+}
