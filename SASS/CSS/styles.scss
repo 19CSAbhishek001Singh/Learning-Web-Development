@@ -1,0 +1,17 @@
+$colors:(primary: #0a79df,
+    accent: #01cbc6, font: #fff);
+
+
+
+@function color($colorName) {
+    @return map-get($map: $colors, $key:$colorName);
+
+}
+
+body {
+    // map
+    // background-color: map-get($map: $colors, $key:primary);
+    // function
+    background-color: color(primary);
+    color: map-get($map: $colors, $key:font);
+}
