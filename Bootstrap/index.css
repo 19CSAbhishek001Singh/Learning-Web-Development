@@ -1,0 +1,6 @@
+.col {
+    border: 1px solid white;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: grey;
+}
