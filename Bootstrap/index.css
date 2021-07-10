@@ -1,6 +1,9 @@
-.col {
-    border: 1px solid white;
-    column-gap: 10px;
-    row-gap: 10px;
-    background-color: grey;
+#red {
+    background-color: red;
+    height: 500px;
+}
+
+#green {
+    background-color: aquamarine;
+    height: 100px;
 }
