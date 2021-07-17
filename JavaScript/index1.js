@@ -4,7 +4,7 @@
 
 // nullish coalescing operator??
 // let user;
- // user="abhishek";
+// user="abhishek";
 // alert(user ?? "Guest User");
 
 // switch
@@ -20,3 +20,20 @@
 
 // Operations on Array
 
+// Functions
+
+// Arguments Object
+
+// Return in Function
+
+// Global & Local Variables
+
+// Anonymous Function
+
+// Immediately Invoked Function
+
+// Object
+
+// Object Properties
+
+// Method in Objects
