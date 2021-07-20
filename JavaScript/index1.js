@@ -36,4 +36,20 @@
 
 // Object Properties
 
-// Method in Objects
+// Method / Actions in Objects
+
+// "this" in object
+
+// Math Object
+
+// Random Number
+
+// Date Object
+
+// "new" keyword
+
+// Property 'getters' and 'setters'
+
+// Object Constructor Function
+
+// Object Prototype
