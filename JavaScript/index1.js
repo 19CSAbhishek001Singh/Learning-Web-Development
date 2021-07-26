@@ -83,3 +83,17 @@
 // Replace Element
 
 // Insert adjacent HTML
+
+// Change attribute
+
+// Inline style
+
+// Get Computed CSS
+
+// CSS Classes
+
+// Width and Height of an Element
+
+// DOM Events
+
+// Remove EventListner
