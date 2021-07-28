@@ -97,3 +97,13 @@
 // DOM Events
 
 // Remove EventListner
+
+// Page Load Events
+
+// Mouse Events
+
+// Key Down Events
+
+// Scroll Events
+
+// Input Events
