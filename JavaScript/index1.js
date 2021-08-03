@@ -123,3 +123,17 @@
 // Navigator Object
 
 // Screen Object
+
+// Default Parameters
+
+// Rest parameters
+
+// Spread Operator
+
+// for..of 
+
+// Template Literal
+
+// Array Destructuring
+
+// Object Destructuring
