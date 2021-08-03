@@ -11,10 +11,19 @@
       /* body {
         height: 2000px;
       } */
+      /* body {
+        padding: 100px;
+        background-color: cornsilk;
+      }
+      #mydiv {
+        padding: 50px;
+        background-color: darkblue;
+      } */
     </style>
   </head>
   <body>
-    <h1>Hello</h1>
+    <!-- <h1>Hello</h1> -->
+
     <!-- <ul>
       <li class="cl">list 1</li>
       <li id="first">list 2</li>
@@ -35,6 +44,10 @@
       <p>paragraph 2</p>
       <h2>heading 3</h2>
       <p class="intro">paragraph 3</p>
+    </div> -->
+
+    <!-- <div id="mydiv">
+      <button id="button">click me</button>
     </div> -->
 
     <script>
@@ -63,6 +76,27 @@
       // window.addEventListener("scroll", function () {
       //   console.log("scrolling..");
       // });
+
+      // Event bubbling and capturing
+      // let d = document.getElementById("mydiv");
+      // let b = document.getElementById("button");
+      // b.addEventListener("click", btnClicked);
+      // d.addEventListener("click", divClicked);
+      // document.body.addEventListener("click", bodyClicked);
+      // function btnClicked(event) {
+      //   console.log("button event");
+      //   event.stopPropagation();
+      // }
+      // function divClicked(event) {
+      //   console.log("div event");
+      //   event.stopPropagation();
+      // }
+      // function bodyClicked(event) {
+      //   console.log("body event");
+      //   event.stopPropagation();
+      // }
+
+      // console.log(navigator.platform);
     </script>
   </body>
 </html>

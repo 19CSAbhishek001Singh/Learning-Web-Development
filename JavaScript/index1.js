@@ -108,4 +108,18 @@
 
 // Input Events
 
-// 
+// Event Bubbling and Event Capturing
+
+// Prevent Defaults
+
+// Browser  Object Model
+
+// Window
+
+// Time out and Time Interval 
+
+// Location Object
+
+// Navigator Object
+
+// Screen Object
