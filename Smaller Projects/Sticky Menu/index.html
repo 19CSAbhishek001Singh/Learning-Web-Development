@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Menu</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      #header {
+        text-align: center;
+      }
+      #logo {
+        width: 250px;
+        height: auto;
+      }
+      #menu-bar {
+        text-align: center;
+        background-color: cadetblue;
+      }
+      #menu-bar li {
+        display: inline-block;
+        padding: 15px 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #container {
+        text-align: center;
+        padding: 50px 100px;
+      }
+      #about-img {
+        width: 100%;
+      }
+      #text {
+        text-align: justify;
+      }
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <img
+        id="logo"
+        src="https://st2.depositphotos.com/1364916/5341/v/950/depositphotos_53411049-stock-illustration-health-nature-logo-vector.jpg"
+        alt="logo"
+      />
+    </div>
+    <nav id="menu-bar">
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Our Team</li>
+      <li>Contact Us</li>
+    </nav>
+    <div id="container">
+      <h1>About Us</h1>
+      <img
+        id="about-img"
+        src="https://www.susangreenecopywriter.com/wp-content/uploads/2013/01/iStock_000039291924_Medium.jpg"
+        alt="About us"
+      />
+      <p id="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt illum
+        eaque deleniti! Adipisci voluptatibus sed amet quis totam vel a alias,
+        nostrum nam nisi commodi veniam quibusdam labore qui, sequi accusantium
+        animi modi incidunt quasi repellat temporibus quod molestiae omnis.
+        Aliquam, alias omnis dolorem, delectus ipsam aliquid libero voluptatibus
+        voluptates quia cumque ratione magni rerum ea quibusdam perspiciatis.
+        Ullam distinctio at, tenetur neque impedit nam dignissimos soluta
+        corrupti reiciendis laborum non expedita aperiam iusto. Harum repellat
+        rerum eveniet, quaerat voluptas ut id voluptatum sed labore hic quia
+        temporibus iste in, repellendus quos aperiam doloremque qui, at fuga
+        commodi corporis totam deserunt tenetur nulla? Rerum iste ullam,
+        voluptatum enim iusto recusandae? Enim fugiat odio aliquam, cum totam
+        non quo nesciunt hic. Aliquid voluptas dolor atque neque facere
+        asperiores non sed illo nesciunt, quia exercitationem rerum nostrum
+        minus unde labore! Repellat autem quod nesciunt nihil aliquam
+        voluptatibus eveniet minima reiciendis, nemo consequuntur sint
+        voluptates a. Debitis neque fugit atque facere dignissimos quisquam
+        recusandae dolor, fuga ad ut, unde excepturi voluptates et. Enim non,
+        harum error ad necessitatibus odit expedita nisi modi autem commodi quae
+        omnis, perspiciatis eligendi animi esse tempore minus provident sequi.
+        Earum quas sed autem in consequatur illo similique facilis aliquid
+        molestias, non aut quidem laborum. Similique quas earum praesentium,
+        consequatur aliquid perspiciatis asperiores nesciunt quis eum, nostrum
+        dolorem magni assumenda quaerat provident deserunt cupiditate excepturi,
+        nobis sint odit. Vel iste quo vero tenetur dolor blanditiis, maiores
+        iure, nostrum minima non recusandae dignissimos! Iste voluptates sint
+        voluptas molestias nostrum distinctio quae sit saepe iusto perferendis
+        voluptatum illum, debitis in, nemo cumque officiis rem aliquid,
+        praesentium asperiores quisquam animi quas? Repellat porro placeat vel?
+        Aut nostrum libero sapiente voluptate dolore corrupti reprehenderit sit
+        aperiam repellat, molestias alias? Doloribus, ad modi. Nulla, dicta?
+        Repudiandae consectetur quia minima suscipit dolore saepe nam optio.
+        Quae inventore dolore velit. Distinctio quae veritatis et blanditiis rem
+        natus maxime velit incidunt maiores doloremque voluptates sint sed est
+        doloribus necessitatibus itaque facere fugit nostrum veniam voluptas
+        iste beatae, ducimus vitae. Iure non ipsa voluptatem fuga sequi ex
+        dolore sit excepturi, expedita laudantium modi saepe adipisci cupiditate
+        doloremque, aspernatur quas. Velit quibusdam sint non dolore, inventore
+        dicta! Necessitatibus expedita nulla dolorum molestias aut cupiditate
+        nostrum beatae, eligendi illo vel, facere saepe corrupti itaque ad
+        exercitationem ut laboriosam assumenda, tempore perspiciatis earum
+        consequatur laudantium! Eligendi amet tenetur dicta nesciunt dolore?
+        Aliquam praesentium asperiores laborum assumenda iure provident
+        explicabo quo voluptas numquam! Iure aliquid voluptatibus necessitatibus
+        architecto veritatis quaerat similique sunt ratione quod neque fuga
+        nesciunt aut, at debitis saepe voluptates, aliquam dolore distinctio
+        minus autem qui totam deserunt fugiat? Facere porro quo nesciunt
+        voluptas sit debitis expedita, odio, quod repudiandae dolor fugit
+        aspernatur hic alias iste doloribus impedit atque fugiat sequi quidem,
+        voluptates qui quam! Iure ipsam enim qui, quam aspernatur sapiente
+        soluta. Quo quidem repellat quis quaerat excepturi eligendi laboriosam.
+        Et, eos ut, obcaecati velit incidunt suscipit ex error aliquam minima,
+        saepe ipsam impedit nesciunt asperiores quis. Labore nam magni fuga
+        laudantium non animi soluta aliquid distinctio eius sequi.
+      </p>
+    </div>
+    <script>
+      window.addEventListener("scroll", function () {
+        let navbar = document.getElementById("menu-bar");
+        if (window.pageYOffset >= 268) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      });
+    </script>
+  </body>
+</html>
