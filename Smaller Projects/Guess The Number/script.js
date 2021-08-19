@@ -1,10 +1,6 @@
-/**
- * Guess The Number Game
- */
+/* Guess The Number Game*/
 
-// Variable to store the list of guesses 
 let guesses;
-// Variable for store the correct random number 
 let correctNumber;
 
 window.onload = function () {
@@ -20,7 +16,6 @@ function playGame() {
     displayResult(numberGuess)
 }
 
-// Initialize a new game by resetting all values and content on the page
 function initGame() {
     correctNumber = getRandomNumber();
     guesses = []
@@ -28,26 +23,18 @@ function initGame() {
     resetResultContent()
 }
 
-// Reset the results list display
 function resetResultContent() {
     document.getElementById("result").innerHTML = "";
 }
 
-// Return random number between 1 and 100
 function getRandomNumber() {
-    /**
-     * Math.random returns a number between 0 and 1,
-     * and that's why we multiply it by 100
-     */
     return Math.floor((Math.random() * 100) + 1);
 }
 
-// Save the user guess entered from the input
 function saveGuessHistory(guess) {
     guesses.push(guess);
 }
 
-// Display history in HTML 
 function displayHistory() {
     let index = guesses.length - 1;
     let list = "<ul class='list-group'>"
@@ -62,7 +49,6 @@ function displayHistory() {
     document.getElementById("history").innerHTML = list;
 }
 
-// Display the result in HTML
 function displayResult(numberGuess) {
     if (numberGuess > correctNumber) {
         showNumberAbove()
@@ -73,7 +59,6 @@ function displayResult(numberGuess) {
     }
 }
 
-// Retrieve the dialog based on if the guess is wrong or correct 
 function getDialog(dialogType, text) {
     let dialog;
     switch (dialogType) {
